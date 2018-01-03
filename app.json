@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/record/record",
+    "pages/deposit/deposit",
+    "pages/question/question"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#d95940",
+    "navigationBarTitleText": "包你说-语音口令",
+    "navigationBarTextStyle":"white"
+  }
+}

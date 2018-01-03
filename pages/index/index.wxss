@@ -1,0 +1,103 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  border:10rpx solid #fff;
+  z-index: 50;
+}
+
+.content-wrapper{
+	/*width:90%;*/
+	background-color:#fff;
+	margin-top: -75rpx;
+	border-radius: 8rpx;
+	box-shadow: 6rpx 10rpx 20rpx rgba(0,0,0,0.1);
+	padding:130rpx 80rpx 80rpx;
+}
+
+.content-wrapper .section{
+	display: flex;
+	margin-bottom: 50rpx;
+}
+
+.content-wrapper .section:first-child{
+	margin-bottom: 10rpx;
+}
+
+.section .section__title{
+	font-size: 32rpx;
+	margin:6rpx 40rpx 0 0;
+	width:130rpx;
+}
+
+.section input{
+	flex:1;
+	font-size: 32rpx;
+	border-bottom: 1rpx solid #ccc;
+}
+
+.content-wrapper .q1,.content-wrapper .desc{
+	font-size: 28rpx;
+	color:#989898;
+	margin-bottom: 50rpx;
+	display: block;
+}
+
+.content-wrapper .desc{
+	text-align: center;
+	padding-top:20rpx;
+	margin-bottom: 30rpx;
+}
+
+.submitBtn{
+	background-color: #d95940;
+	color:#fff;
+	border-radius: 50rpx;
+}
+
+.bottomTab{
+	position: fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	z-index: 100;
+	background-color:#fff;
+	display: flex;
+}
+
+.bottomTab navigator{
+	flex:auto;
+}
+
+.tab-item{
+	text-align: center;
+	padding:20rpx;
+}
+
+.tab-item .icon{
+	width:56rpx;
+	height:56rpx;
+	background-color:#898989;
+	border-radius: 50%;
+	text-align: center;
+	margin:0 auto;
+}
+
+.tab-item .icon image{
+	width:80%;
+	height:80%;
+	margin-top: 2rpx;
+
+}
+
+.tab-item text{
+	font-size: 30rpx;
+	color:#7d7d7d;
+}
