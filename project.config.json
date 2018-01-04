@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.7.2",
 	"appid": "touristappid",
-	"projectname": "vv",
+	"projectname": "voice-pwd",
 	"condition": {
 		"search": {
 			"current": -1,
