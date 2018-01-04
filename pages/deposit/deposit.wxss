@@ -1,0 +1,54 @@
+.content{
+	background-color:#fff;
+	padding:40rpx;
+	position: absolute;
+	margin:106rpx 40rpx 0;
+	width:79%;
+}
+.balance{
+	margin-bottom: 88rpx;
+}
+.balance text:first-child{
+	margin-right:100rpx;
+	font-size: 32rpx;
+}
+.balance .balance-num{
+	font-size: 54rpx;
+	color:#969696;
+}
+.balance text:last-child{
+	font-size: 32rpx;
+	color: #b6b6b6;
+	margin-left: 10rpx;
+}
+.deposit text{
+	margin-bottom: 46rpx;
+	display: block;
+	font-size: 32rpx;
+}
+.deposit input{
+	border-bottom: 1rpx solid #ccc;
+	height:96rpx;
+	margin-bottom: 40rpx;
+}
+.deposit-desc{
+	margin-bottom: 40rpx;
+	display: block;
+	font-size: 32rpx;
+	color:#999;
+}
+.deposit-all{
+	color:#576278;
+}
+.submitBtn{
+	background-color: #1aac19;
+	border-radius: 8rpx;
+	color:#fff;
+	margin-bottom: 26rpx;
+}
+.desc{
+	font-size: 32rpx;
+	color:#999;
+	display: block;
+	text-align: center;
+}

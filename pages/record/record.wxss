@@ -1,0 +1,60 @@
+.tab-h{
+	height:98rpx;
+	width:100%;
+	background-color:#fff;
+	display: flex;
+}
+.tab-item{
+	flex:1;
+	text-align: center;
+	line-height: 98rpx;
+	font-size: 32rpx;
+	color:#adadad;
+}
+
+/*.tab-h{
+    height: 80rpx;width: 100%; box-sizing: border-box;overflow: hidden;line-height: 80rpx;background: #F7F7F7; font-size: 16px; white-space: nowrap;position: fixed;top: 0; left: 0; z-index: 99;}
+.tab-item{margin:0 36rpx;display: inline-block;}*/
+.tab-item.active{color: #df5344;position: relative; font-size: 32rpx;}
+.tab-item.active:after{ content: "";display: block;height: 8rpx;width: 100rpx;background: #df5344;position: absolute; bottom: 0;left: 50%;margin-left:-50rpx;border-radius: 16rpx;}
+.tab-content{background-color:#f6f6f6;padding:40rpx 100rpx;height: 500rpx;}
+/*.scoll-h{height: 100%;}*/
+.tab-content .userinfo {
+	text-align: center;
+}
+
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  border:1rpx solid #ccc;
+  z-index: 50;
+}
+.userinfo-nickname{
+	display: block;
+	text-align: center;
+	font-size: 28rpx;
+}
+
+.data{
+	margin-top:68rpx;
+	display: flex;
+	text-align: center;
+}
+.data-item{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+}
+.item{
+	flex:1;
+}
+.txt{
+	font-size:32rpx;
+	color:#aaa;
+	margin-bottom:20rpx;
+}
+.num{
+	font-size: 40rpx;
+	font-weight: 700;
+}

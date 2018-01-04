@@ -1,0 +1,28 @@
+<view class="container">  
+	<view class="tab-h">
+	    <view class="tab-item {{currentTab==0?'active':''}}"  data-current="0" bindtap="swichNav">我发出的</view>
+	    <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">我收到的</view>
+	</view>
+    <swiper class="tab-content" current="{{currentTab}}" duration="300" bindchange="switchTab"
+     style="height:{{winHeight}}rpx">
+        <swiper-item wx:for="{{expertList}}">
+            <view class="userinfo">
+		      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+		      <block wx:else>
+		        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+		      </block>
+		    </view>
+		    <text class="userinfo-nickname">{{userInfo.nickName}} 共{{item.desc}}</text>
+		    <view class="data">
+		    	<view class="data-item">
+		    		<text class="item txt">金额(元)</text>
+		    		<text class="item num">{{item.money}}</text>
+		    	</view>
+		    	<view class="data-item">
+		    		<text class="item txt">数量(个)</text>
+		    		<text class="item num">{{item.num}}</text>
+		    	</view>
+		    </view>
+        </swiper-item>
+    </swiper>
+</view>

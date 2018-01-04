@@ -1,0 +1,17 @@
+<view class="container">
+	<view class="content">
+		<view class="balance">
+			<text>账户余额</text>
+			<text class="balance-num">0.00</text>
+			<text>元</text>
+		</view>
+		<view class="deposit">
+			<text>提现金额</text>
+			<input  bindinput="bindKeyInput"/>
+		</view>
+		<text class="deposit-desc">提现到微信钱包，<text class="deposit-all">全部提现</text></text>
+		<button class="submitBtn" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="pay"> 提现 </button>
+        <text class="desc">1-5个工作日到账</text>
+	</view>
+</view>

@@ -3,6 +3,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: absolute;
+  top:-70rpx;
+  left:50%;
+  margin-left:-75rpx;
 }
 
 .userinfo-avatar {
@@ -20,6 +24,8 @@
 	border-radius: 8rpx;
 	box-shadow: 6rpx 10rpx 20rpx rgba(0,0,0,0.1);
 	padding:130rpx 80rpx 80rpx;
+	position: absolute;
+	margin:106rpx 40rpx 0;
 }
 
 .content-wrapper .section{
